@@ -77,7 +77,7 @@ var getPlayerName = function() {
   console.log("Your robot's name is " + name);
   return name;
 };
-
+// end of set name function
 
 
 //player info
