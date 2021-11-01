@@ -1,11 +1,3 @@
-var playerName = window.prompt("What is your robot's name?");
-var playerHealth = 100;
-var playerAttack = 10;
-var playerMoney = 10;
-
-var enemyNames = ['Roborto', 'Amy Android', 'Robo Trumble'];
-var enemyHealth = 50;
-var enemyAttack = 12;
 
 // fight function (now with parameter for enemy's name)
 var fight = function(enemyName) {
@@ -64,8 +56,6 @@ var fight = function(enemyName) {
   }
 };
 
-<<<<<<< Updated upstream
-=======
 
 // function to set name
 var getPlayerName = function() {
@@ -130,7 +120,6 @@ var enemyInfo = [{
 //end of game info and variables
 
 
->>>>>>> Stashed changes
 // function to start a new game
 var startGame = function() {
   // reset player stats
